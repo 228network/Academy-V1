@@ -32,7 +32,7 @@
 
     header-banner-v22
 
-05. search btn css 
+05. search btn css
 
 06. course css
 
@@ -52,7 +52,7 @@
 
 012. JoinUs
 
-013. Custom-V2 Css 
+013. Custom-V2 Css
 
     large__course-v2
 
@@ -78,7 +78,7 @@
 
      deal-section
 
-017. Custom-V14 Css     
+017. Custom-V14 Css
 
 018. Custom-V15 Css
 
@@ -88,7 +88,7 @@
 
 018. Custom-V15 Css
 
-019. Custom-V19 Css  
+019. Custom-V19 Css
 
      blogs
 
@@ -98,7 +98,7 @@
 
 022. About us
 
-023. 404 page 
+023. 404 page
 
 024. custom-slider css
 
@@ -112,9 +112,9 @@
 
        v2-responsive
 
-       v3-responsive 
+       v3-responsive
 
-       v6-responsive 
+       v6-responsive
 
        v7-responsive
 
@@ -142,7 +142,7 @@
 
         contact-us-responsive
 
-        register-form 
+        register-form
 
         Teacher profile
 
@@ -184,7 +184,7 @@
 
         contact-us-responsive
 
-        register-form 
+        register-form
 
         Teacher profile
 
@@ -206,7 +206,7 @@
 
         v20-responsive
 
-        register-form 
+        register-form
 
         Teacher profile
 
@@ -1096,7 +1096,7 @@ button {
 	color: #FFFFFF;
 	padding: 15px 25px;
 	border-radius: 4px;
-	background: #F56962 0% 0% no-repeat padding-box;
+	background: #21BF96 0% 0% no-repeat padding-box;
 	transition: all 0.2s linear 0s;
 }
 
@@ -1298,7 +1298,7 @@ footer {
 .join__us,
 .large__course-v2,
 .bg-color-pink {
-	background-color: #fef0ef;
+	background-color: #E2FBF4;
 }
 
 .bg-color-white {
@@ -1628,7 +1628,7 @@ footer {
 }
 
 .slick-dots li.slick-active button:before {
-	color: #f68c20;
+	color: #21BF96;
 }
 
 .banner__slider {
@@ -1645,7 +1645,7 @@ footer {
 	right: 0;
 	top: 70px;
 	z-index: -1;
-	border: 3px solid #F68C20;
+	border: 3px solid #21BF96;
 	border-radius: 40px;
 	height: 100%;
 	width: 80%;
@@ -6881,7 +6881,7 @@ option {
 			background-color: 	#bd0505;
 		}
 		.inter-level::after{
-			content: "Intermediate";	
+			content: "Intermediate";
 			background-color: #ffa500;
 		}
 /* ------------- slider top txt bigners css End ------------------  */
