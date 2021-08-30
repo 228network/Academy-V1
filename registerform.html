@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Skilify - Registeration Form</title>
+      <meta property="og:title" content="">
+      <meta property="og:type" content="">
+      <meta property="og:url" content="">
+      <meta property="og:image" content="">
+      <link rel = "icon" href ="img/browser-logo.png" type = "image/x-icon">
+      <link rel="stylesheet" href="font/stylesheet.css">
+      <link rel="stylesheet" href="css/style.css">
+      <meta name="theme-color" content="#fafafa">
+   </head>
+   <body>
+      <main class="main">
+         <div class="register__left col--40 pos--relative">
+            <div class="dots__pic top1">
+               <img src="img/patternlight.png" alt="">
+            </div>
+            <div class="dots__pic top2">
+               <img src="img/patternlight.png" alt="">
+            </div>
+            <div class="form__logo">
+               <a href="index.html">
+               <img src="img/logo.png" alt="">
+               </a>
+            </div>
+            <div class="register__img">
+               <img src="img/registerimg.png" alt="">
+            </div>
+            <div class="register__left__text">
+               <h1>
+                  Turn your ambition into a success story
+               </h1>
+               <p>
+                  Choose from over 100,000 online video.
+               </p>
+            </div>
+            <div class="dots__pic bottom1">
+               <img src="img/patternlight.png" alt="">
+            </div>
+            <div class="dots__pic bottom2">
+               <img src="img/patternlight.png" alt="">
+            </div>
+         </div>
+         <div class="form__outter">
+            <a href="index.html" class="responsive__logo">
+            <img src="img/logo.png" alt="">
+            </a>
+            <!-- Register Form Start -->
+            <div class="register__form">
+               <nav class="register__nav">
+                  <h3>
+                     Don’t have an account?
+                  </h3>
+                  <button  class="register__js register__btn pink--btn" onclick="loginOpen();">  
+                  Register
+                  </button>
+               </nav>
+               <div class="form__wrapper">
+                  <h2 class="form__title">
+                     Hello ! Welcome back.
+                  </h2>
+                  <p class="form__text">
+                     Log in with your data that you entered during Your registration.
+                  </p>
+                  <form action="skilify-v4.html" class="main__form">
+                     <label for="R-email">
+                     Email address
+                     </label>
+                     <input type="email" class="form__control" id="R-email" placeholder="Email address" required >
+                     <label for="R-password" class="register__password">
+                     Password
+                     <span class="forget__pass">
+                     Forgot Password
+                     </span>
+                     </label>
+                     <input type="password" class="form__control" id="R-password" placeholder="Password" required>
+                     <input type="submit" value="Start now !" class="pink--btn submit__btn">
+                  </form>
+                  <div class="or">
+                     <span>
+                     OR
+                     </span>
+                  </div>
+                  <a class="sign__google" href="#">
+                  <img src="img/google1.png" alt="">
+                  <span>Sign with Google</span>
+                  </a>
+                  <div class="sign__up">
+                     <h4>
+                        Don’t have an account?
+                        <button class="register__js " onclick="loginOpen();">
+                           <!-- Register js Class Use For Javascript -->
+                           Sign up
+                        </button>
+                     </h4>
+                  </div>
+               </div>
+            </div>
+            <!-- Register form End -->
+            <!-- Login Form End -->
+            <div class="login__form">
+               <nav class="register__nav">
+                  <h3>                     
+                     Already have an account?
+                  </h3>
+                  <button  class="register__btn pink--btn" onclick="register();">
+                  Log in
+                  </button>
+               </nav>
+               <div class="form__wrapper">
+                  <h2 class="form__title">
+                     Create your free account
+                  </h2>
+                  <p class="form__text">
+                     See how the world’s best user experiences are created
+                  </p>
+                  <form action="skilify-v4.html" class="main__form">
+                     <label for="name">
+                     Name
+                     </label>
+                     <input type="text" class="form__control" id="name" placeholder="Name" required>
+                     <label for="email">
+                     Email address
+                     </label>
+                     <input type="email" class="form__control" id="email" placeholder="Email address" required>
+                     <label for="password" class="register__password">
+                     Password
+                     </label>
+                     <div class="pos--relative form__password">
+                        <input type="password" class="form__control view__password" id="password" placeholder="Password" required>
+                        <button class="show__password" type="button">
+                        <img src="img/Eyes.png" alt="">   
+                        </button>
+                     </div>
+                     <input type="submit" value="Create your account" class="pink--btn submit__btn">
+                  </form>
+                  <div class="or">
+                     <span>
+                     OR
+                     </span>
+                  </div>
+                     <a  class="sign__google" href="#">
+                     <img src="img/google1.png" alt="">
+                     <span>Sign with Google</span>
+                     </a>
+                  <div class="sign__in">
+                     <h4>
+                        By signing up, you agree to our communications and usage terms Already have an account?
+                        <button  onclick="register();">
+                        Sign in
+                        </button>
+                     </h4>
+                  </div>
+               </div>
+            </div>
+            <!-- Login Form End -->
+         </div>
+      </main>
+      <script src="js/registerform.js"></script>
+   </body>
+</html>
